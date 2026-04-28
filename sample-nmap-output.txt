@@ -1,0 +1,14 @@
+Nmap scan report for 192.168.1.10
+Host is up.
+
+PORT     STATE SERVICE
+22/tcp   open  ssh
+80/tcp   open  http
+443/tcp  open  https
+3389/tcp open  ms-wbt-server
+
+Security Observations:
+- SSH service exposed
+- HTTP service available
+- RDP port exposed
+- HTTPS enabled
